@@ -1,5 +1,9 @@
 import React from 'react';
+
 import Header from './header';
+import Content from './content';
+import Search from './search';
+
 import avatar from 'images/avatar.avif';
 import menu from 'images/menu.png';
 
@@ -13,9 +17,11 @@ export default function BodyContent() {
                     <img src={menu} />,
                 ]}
             />
-            <div className="content">
-                content
-            </div>
+            <Content 
+                innerHTML={<div>
+                    
+                </div>}
+            />
         </div>
     )
 }

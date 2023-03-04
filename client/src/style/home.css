@@ -18,6 +18,7 @@
     justify-content: flex-start;
     height: 100%;
     border-right: 1px solid rgba(0, 0, 0, 0.214);
+    overflow: hidden;
 }
 
 .main-content {
@@ -36,15 +37,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 1rem;
+    padding-left: .4rem;
 }
 
 .content {
     flex: 13;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 1rem;
+    flex-direction: column;
+    overflow: auto;
 }
 
 .profile-avatar {
@@ -67,15 +69,34 @@
     width: 3rem;
     border-radius: .4rem;
 }
+
 .side-bar-menu {
     padding: .1rem .2rem;
     margin-right: 1rem;
 }
+
 .side-bar-menu:hover {
     background: rgba(0, 0, 0, 0.101);
     border-radius: 5rem;
 }
+
 .side-bar-menu img {
     width: 2rem;
     border-radius: .4rem;
+}
+
+.search-box {
+    width: 100%;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0;
+}
+
+.search-box input {
+    width: 90%;
+    background: #fff;
+    border-bottom: none;
+    border-radius: .6rem;
 }
