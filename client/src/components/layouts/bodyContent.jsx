@@ -2,7 +2,8 @@ import React from 'react';
 
 import Header from './header';
 import Content from './content';
-import Search from './search';
+import ChatBoard from './chatBoard';
+
 
 import avatar from 'images/avatar.avif';
 import menu from 'images/menu.png';
@@ -18,9 +19,7 @@ export default function BodyContent() {
                 ]}
             />
             <Content 
-                innerHTML={<div>
-                    
-                </div>}
+                innerHTML={<ChatBoard />}
             />
         </div>
     )
