@@ -1,0 +1,60 @@
+.chat-list {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #ececec;
+    gap: .2rem;
+}
+
+.chat-detail {
+    display: flex;
+    border-bottom: 1px solid #cfcdcd;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+.chat-detail:hover {
+    background: #dcdada;
+    /* border-bottom: none; */
+}   
+
+.chat-detail img {
+    width: 3rem;
+    border-radius: .4rem;
+}
+
+
+.chat-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem; 
+}
+
+.chat-content p {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+}
+
+
+.chat-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat-name p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+}
+
+.chat-name span {
+    color: #6b6767;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: .7rem;
+}
